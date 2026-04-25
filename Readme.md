@@ -51,7 +51,7 @@ portfolio/
 
 ## 📬 Contact
 
-📧 [aviralstudies@example.com](mailto:aviralstudies@example.com)
+📧 [aviralstudies@gmail.com](mailto:aviralstudies@gmail.com)
 
 ---
 
