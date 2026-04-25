@@ -8,7 +8,7 @@ This is my personal portfolio website built to showcase my projects, skills, and
 
 ## 🚀 Live Demo
 
-🔗 https://AviralLazarusMishra.github.io/Portfolio/
+🔗 https://AviralLazarusMishra.github.io/Portfolio/index.html
 
 ---
 
