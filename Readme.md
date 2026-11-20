@@ -1,60 +1,47 @@
-# 🌐 Portfolio Website
+# Aviral Mishra | Portfolio
 
-## 📌 Overview
+A responsive, dark-first developer portfolio built with React, Vite, Tailwind CSS, Framer Motion, and Lucide React. Portfolio content is organized in `src/data/portfolio.js`; archived copy is labeled separately from the current page copy.
 
-This is my personal portfolio website built to showcase my projects, skills, and achievements. It serves as a central hub for my work and provides an easy way to explore my development journey.
+## Requirements
 
----
+- Node.js 20.19+ or 22.12+
+- npm
 
-## 🚀 Live Demo
+## Development
 
-🔗 https://AviralLazarusMishra.github.io/Portfolio/
-
----
-
-## 🛠️ Tech Stack
-
-* HTML5
-* CSS3
-* JavaScript
-
----
-
-## ✨ Features
-
-* Responsive design for all devices
-* Clean and minimal UI
-* Project showcase section
-* Contact section for easy communication
-
----
-
-## 📂 Project Structure
-
-```
-portfolio/
-│── index.html
-│── style.css
-│── script.js
+```bash
+npm install
+npm run dev
 ```
 
----
+Vite prints a local development URL after the server starts.
 
-## 🧠 What I Learned
+## Production build
 
-* Structuring a complete frontend project
-* Improving UI/UX design basics
-* Deploying projects using GitHub Pages
-* Managing code with Git and GitHub
+```bash
+npm run build
+npm run preview
+```
 
----
+The production output is generated in `dist/`. Vite is configured with the `/Portfolio/` base path for the repository's GitHub Pages project-site URL. Deployment automation is not configured.
 
-## 📬 Contact
+## Project structure
 
-📧 [aviralstudies@gmail.com](mailto:aviralstudies@gmail.com)
+```text
+public/
+└── assets/
+src/
+├── assets/
+├── components/
+│   ├── ProjectCard.jsx
+│   ├── SectionLayout.jsx
+│   ├── SiteHeader.jsx
+│   └── SocialLinks.jsx
+├── data/
+├── sections/
+├── App.jsx
+├── index.css
+└── main.jsx
+```
 
----
-
-## 📄 License
-
-This project is open-source and available under the MIT License.
+The data module contains profile, experience, project, skill, certification, leadership, education, and contact information. Dates, statuses, and links are shown only where provided; missing project statuses and URLs are left unset rather than inferred.
