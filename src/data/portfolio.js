@@ -237,7 +237,6 @@ export const portfolioContent = {
     linkedin: "https://linkedin.com/in/aviral-mishra-a0695a235",
     booking: "https://cal.com",
     resume:
-      "https://drive.google.com/file/d/1Edij80RcbqXjgZMghRCHb-zEyduh0WNC/view?usp=sharing",
-    liveSite: "https://avirallazarusmishra.github.io/Portfolio",
+      "https://drive.google.com/file/d/1TtSf61DSfRuKL9GAlRlsEhYoGU-yQhzn/view?usp=drive_link"
   },
 };
