@@ -23,7 +23,7 @@ npm run build
 npm run preview
 ```
 
-The production output is generated in `dist/`. Vite is configured with the `/Portfolio/` base path for the repository's GitHub Pages project-site URL. Deployment automation is not configured.
+The production output is generated in `dist/`. The site uses root-relative asset paths for deployment at a domain root, including Netlify. Netlify builds with `npm run build` and publishes `dist/`.
 
 ## Project structure
 
